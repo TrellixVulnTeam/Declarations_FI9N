@@ -1,0 +1,22 @@
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+
+*.py[co]
+*.sw[po]
+*~
+*.log
+*.mo
+
+backend/db.sqlite3
+backend/env
+
+
+# dependencies
+frontend/frontend/node_modules
+
