@@ -1,2 +1,2 @@
 # OpenData visualisation project, based on declarations of Chernivtsi City Hall deputies. 
-# used stack :Python/Django, REST API framework, React
+used stack: Python/Django, REST API framework, React
