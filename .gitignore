@@ -1,22 +1,13 @@
-
-### Django ###
-*.log
-*.pot
 *.pyc
-__pycache__/
-local_settings.py
 
+__ pycache __
 
-*.py[co]
-*.sw[po]
-*~
-*.log
-*.mo
+/backend/env
 
-backend/db.sqlite3
-backend/env
+/backend/Deputies/Declarations/db.sqlite3
 
+/backend/Deputies/Declarations/static
 
-# dependencies
-frontend/frontend/node_modules
+.DS_Store
 
+node_modules/
