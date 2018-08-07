@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'Declarations',
-    'corsheaders'
+    'Declarations'
+  
 ]
 
 REST_FRAMEWORK = {
@@ -49,8 +49,7 @@ REST_FRAMEWORK = {
 }
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware', # new
-    'django.middleware.common.CommonMiddleware', # new
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -60,9 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/'
-)
+
 
 ROOT_URLCONF = 'Deputies.urls'
 

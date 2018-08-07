@@ -1,7 +1,7 @@
 var path = require('path');
  
 module.exports = {
-    entry: "./app/app.jsx", // входная точка - исходный файл
+    entry: "./web_client/app.jsx", // входная точка - исходный файл
     output:{
         path: `${__dirname}/backend/Deputies/Declarations/static`,
        filename: 'app.js'
