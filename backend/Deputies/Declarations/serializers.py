@@ -6,6 +6,7 @@ class DeputySerializer(serializers.ModelSerializer):
     
     class Meta:
         fields = (
+            'id',
             'name',
             'party_name',
             'declaration_id',
