@@ -2,8 +2,6 @@
 var React = require('react');
 import { Link, Switch, Route } from 'react-router-dom';
 
-   
-
  
 class DeputiesList extends React.Component {
     constructor(props) {
@@ -25,27 +23,18 @@ class DeputiesList extends React.Component {
     render() {
         return(
             <div>
-     
-  
+      
          <ul>
       {this.state.data.map((item) => (
-            
-    
+                
             <li>
 
           <Link to={{ pathname:`/deputies/${item.id}`, state: item }}>{item.name}</Link>
-
-         {/* <NavLink to={`/deputies/${item.id}`}>{item.name}</NavLink> */}
-          
-           
-
-            
+               
             </li>
-           
-           
+                     
         ))}
         </ul>
-   
 
       </div>);
     }

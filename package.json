@@ -1,16 +1,17 @@
 {
-  "name": "routeapp",
+  "name": "sandbox",
   "description": "A React.js project using Webpack",
   "version": "1.0.0",
-  "author": "metanit.com",
+  "author": "atuzhykov",
   "scripts": {
     "dev": "webpack-dev-server --hot --open",
     "build": "webpack --progress --watch"
   },
   "dependencies": {
-    "react": "^16.0.0",
+    "react": "^16.4.2",
     "react-bar-chart": "^0.1.2",
-    "react-dom": "^16.0.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.2",
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
